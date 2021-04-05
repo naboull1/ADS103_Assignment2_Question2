@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\nabou\Downloads\ADS week 2\ADS week 2\main.cpp(13,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  ADS week 2.vcxproj -> C:\Users\nabou\Downloads\ADS week 2\x64\Debug\ADS week 2.exe
