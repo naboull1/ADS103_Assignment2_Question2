@@ -35,7 +35,6 @@ void main()
 
 
 	//Line 1: time taken by insertAtBeginning
-	
 	//create list
 	list list1;
 
@@ -43,7 +42,7 @@ void main()
 	chrono::steady_clock::time_point begin = chrono::steady_clock::now();
 
 
-	//inseration to number received from input file
+	//Loops the insertAtFront function the number of times based in the text file with a value from random number
 	for (int i = 0; i < firstLineVariable; i++)
 	{
 		list1.insertAtFront(randomNumber);
@@ -62,7 +61,6 @@ void main()
 
 
 	//Line 2: time taken by insertAtEnd 
-
 	//create list
 	list list2;
 
@@ -70,7 +68,7 @@ void main()
 	chrono::steady_clock::time_point begin2 = chrono::steady_clock::now();
 
 
-	//inseration to number received from input file
+	//Loops the insertAtEnd function the number of times based in the text file with a value from random number
 	for (int i = 0; i < firstLineVariable; i++)
 	{
 		list2.insertAtEnd(randomNumber);
@@ -85,8 +83,8 @@ void main()
 
 
 
-	//Line 3: time taken by deleteFromBeginning
 
+	//Line 3: time taken by deleteFromBeginning
 	//start time 
 	chrono::steady_clock::time_point begin3 = chrono::steady_clock::now();
 
@@ -109,7 +107,6 @@ void main()
 
 
 	//Line 4: time taken by deleteFromEnd
-
 	//start time 
 	chrono::steady_clock::time_point begin4 = chrono::steady_clock::now();
 
