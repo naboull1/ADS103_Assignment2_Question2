@@ -124,5 +124,18 @@ void main()
 
 
 
-	system("pause");
+
+
+
+
+
+	//Writes the result to a text file
+	ofstream  writeFile;
+	writeFile.open("output-a1q2.txt");
+	writeFile << "Milliseconds = " << std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count() << "[ms]" << std::endl;
+	writeFile << "Milliseconds = " << std::chrono::duration_cast<std::chrono::milliseconds>(end2 - begin2).count() << "[ms]" << std::endl;
+	writeFile << "Milliseconds = " << std::chrono::duration_cast<std::chrono::milliseconds>(end3 - begin3).count() << "[ms]" << std::endl;
+	writeFile << "Milliseconds = " << std::chrono::duration_cast<std::chrono::milliseconds>(end4 - begin4).count() << "[ms]" << std::endl;
+	writeFile.close();
+	return;
 }
